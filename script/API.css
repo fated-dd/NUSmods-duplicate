@@ -1,0 +1,114 @@
+body {
+    padding-left: 20px;
+    background-color: rgb(31, 31, 31);
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo-div {
+    color: orangered;
+    font-weight: 800;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.form-div {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid , 4px;
+    border-color: gray;
+}
+
+.nusmods-form {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+    gap: 5px;
+}
+
+.course-code {
+    flex: 1;
+    background-color: rgb(31, 31, 31);
+    
+    font-size: 18px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid , 4px;
+    border-color: gray;
+
+    color: rgb(174, 174, 174);
+}
+
+.course-code:focus {
+    border-color: orangered;
+    outline: none;
+    caret-color: white;
+    color: white;
+}
+
+.course-code::placeholder {
+    color: gray;
+}
+
+.course-code:-webkit-autofill,
+.course-code:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+.course-code[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+
+.submit-button {
+    background-color: rgb(31, 31, 31);
+    border: none;
+    font-size: 20px;
+    color: orangered;
+}
+
+#course-div{
+    padding-top: 20px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+#courseCode{
+    color: orangered;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+#courseTitle{
+    padding-top: 5px;
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#courseCredit{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+}
+
+#description{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
