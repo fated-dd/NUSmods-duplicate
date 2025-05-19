@@ -2,7 +2,7 @@
 
 Completed with features such as fetching NUSMods API and displaying course detail.
 
-![Preview](/script/pics/preview.jpg)
+![Preview](/script/pics/Preview.jpg)
 
 # Tutorial followed
 
